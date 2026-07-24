@@ -1,8 +1,14 @@
 aid: cherry
 name: Cherry
-description: 'Cherry is a company surfaced as a portfolio company of dcm-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Cherry is a fintech platform providing point-of-sale patient financing for healthcare
+  and elective-services providers across dental, medical aesthetics, plastic surgery, dermatology,
+  veterinary, and other verticals. Rather than lending directly, Cherry facilitates consumer payment
+  plans through partner lenders, offering Pay-in-4 and longer-term monthly plans (0-35.99% APR), a
+  60-second application with no hard credit check, upfront provider payout within 2-3 business days,
+  and card-processing services. Cherry states it serves over 60,000 healthcare providers with an
+  approximately 90% approval rate. Cherry is a portfolio company of DCM Ventures. Cherry does not
+  publish a public developer API, developer portal, or OpenAPI at this time; this profile captures
+  its public identity and security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/cherry/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,31 @@ x-backed-by:
 - dcm-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/681bf1d6f7dea459fe255c59/68252146834983973a92051f_cherry-logo-primary.svg
 tags:
 - Company
 - Fintech
+- Payments
+- Financing
+- Point of Sale
+- Patient Financing
+- Buy Now Pay Later
+- Healthcare
+- Lending
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/cherry-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/cherry-domain-security.yml
+- type: Security
+  url: https://withcherry.com/security
+- type: Support
+  url: https://withcherry.com/help-center
+- type: PrivacyPolicy
+  url: https://withcherry.com/privacy
+- type: TermsOfService
+  url: https://withcherry.com/terms
+- type: Blog
+  url: https://withcherry.com/blog
+- type: SignUp
+  url: https://join.withcherry.com/demo-book
+- type: Login
+  url: https://provider.withcherry.com/
 - type: Website
   url: https://withcherry.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

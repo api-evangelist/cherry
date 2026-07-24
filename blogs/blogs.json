@@ -1,0 +1,14 @@
+{
+  "repo": "cherry",
+  "feeds": [
+    {
+      "source": "https://withcherry.com/terms",
+      "feed_url": "https://withcherry.com/terms",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-20T13:31:34Z"
+}
